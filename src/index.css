@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: white;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.gradient-border {
+  position: relative;
+  display: inline-block;
+  padding: 3px; /* Adjust padding for the border */
+  border-radius: 9999px; /* Full rounding for pill shape */
+  background: linear-gradient(120deg, #eb2c39, #b6ea35, #383bee); /* Gradient colors */
+}
+
+.gradient-border .inner-button {
+  position: relative;
+  border-radius: 9999px; /* Full rounding for pill shape */
+  background: white; /* Inner button background */
+  padding: 0.5rem 2.5rem; /* Inner button padding */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none; /* Remove default border */
+  outline: none; /* Remove default outline */
+}
